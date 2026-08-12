@@ -7,8 +7,6 @@ node_modules
 
 # Local env files. `.env.example` is the one that is committed — it is the
 # documentation, so the catch-all below must not swallow it.
-.env
-.env.*
 !.env.example
 
 # Testing
@@ -43,3 +41,4 @@ yarn-error.log*
 # eve build output
 .eve
 .output
+config.bat
